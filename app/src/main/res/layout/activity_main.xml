@@ -10,29 +10,30 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/TextMain"
+        android:id="@+id/textMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/cabin"
         android:text="@string/_0"
-        android:textColor="#fdfdfd"
-        android:textSize="180sp"
+        android:textColor="@color/acmain"
+        android:textSize="160sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/ButtonMain"
+        android:id="@+id/buttonMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginBottom="40dp"
         android:fontFamily="@font/cabin"
         android:padding="20dp"
         android:text="@string/sortear_um_n_mero"
-        app:backgroundTint="@style/ButtonStyle"
+        android:textColor="@color/acmain2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:backgroundTint="@color/acmain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
